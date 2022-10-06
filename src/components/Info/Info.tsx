@@ -39,7 +39,7 @@ export const Info = (props: Price) => {
                         }}>
                             {props.type}
                             <Typography display="inline" variant="h6" style={{
-                                color: '#FF0000',
+                                color: '#018400',
                                 fontFamily: 'Main',
                                 fontWeight: 'bold',
                                 textAlign: 'center',
