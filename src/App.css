@@ -1,13 +1,13 @@
 /* Customize your main colors in :root variables */
 :root {
   --light-background-color: #323f4d;
-  --main-background-color: #131a21;
+  --main-background-color: ##df21211f;
   --dark-background-color: #000000;
   --title-text-color:#04f13fcb;
 }
 
 body{
-  /*background-color:var(--main-background-color);*/
+  background-color:var(--main-background-color);
   background: url("img/background.png");
   background-size: cover;
 
