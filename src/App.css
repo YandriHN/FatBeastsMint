@@ -9,7 +9,7 @@
 
 body {
   background-color: aliceblue;
-  background-image: url("/img/background.png");
+  background-image: url("img/background.png");
   font-family: 'Patrick Hand', cursive;
   font-size: 1.1em;
 }
