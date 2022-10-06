@@ -632,7 +632,7 @@ export const MintPage = (props: HomeProps) => {
                 </Typography>
 
                 <Info
-                  type="price"
+                  type="SOL"
                   amount={
                     price
                       ? isActive &&
