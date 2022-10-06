@@ -5,14 +5,11 @@
   --dark-background-color: #000000;
   --title-text-color:#04f13fcb;
 }
-background{
-   background-image: url("./img/background.png");
-}
 
-body{
-  background-color: var(--main-background-color);
-  background-size: cover;
-  
+
+body {
+  background-color: aliceblue;
+  background-image: url("/img/background.jpg");
   font-family: 'Patrick Hand', cursive;
   font-size: 1.1em;
 }
