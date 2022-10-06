@@ -20,7 +20,7 @@ export const InactiveMintButton = () => {
 
     return (
             <CTAButton variant="contained" onClick={() => alert(alertMessage)}>
-                Mint
+                Mint IEC
             </CTAButton>
 
     );

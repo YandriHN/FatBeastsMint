@@ -23,7 +23,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     {days < 10 ? `0${days}` : days}
                 </Typography>
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
-                    color: theme.palette.primary.contrastText, fontFamily: 'Main'
+                    color: '#000000', fontFamily: 'Main'
                 }}>days</Typography>
             </Paper>
             <Paper elevation={0} className="item-container"
@@ -36,7 +36,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     {hours < 10 ? `0${hours}` : hours}
                 </Typography>
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
-                    color: theme.palette.primary.contrastText, fontFamily: 'Main'
+                    color: '#000000', fontFamily: 'Main'
                 }}>hrs</Typography>
             </Paper>
             <Paper elevation={0} className="item-container"
@@ -49,7 +49,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     {minutes < 10 ? `0${minutes}` : minutes}
                 </Typography>
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
-                    color: theme.palette.primary.contrastText, fontFamily: 'Main'
+                    color: '#000000', fontFamily: 'Main'
                 }}> mins </Typography>
             </Paper>
             <Paper elevation={0} className="item-container" style={{backgroundColor: theme.palette.primary.light,}}>
@@ -59,7 +59,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     {seconds < 10 ? `0${seconds}` : seconds}
                 </Typography>
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
-                    color: theme.palette.primary.contrastText, fontFamily: 'Main'
+                    color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper>
         </div>
