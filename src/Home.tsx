@@ -56,7 +56,7 @@ import {
 } from "./components/styled";
 
 import isMobile from "./components/isMobile";
-import { startDate, startWlDate, mintPrice, supply } from "./constants";
+import { startDate, startWlDate, mintPrice, matauang, supply } from "./constants";
 
 const cluster = process.env.REACT_APP_SOLANA_NETWORK!.toString();
 const decimals = process.env.REACT_APP_SPL_TOKEN_TO_MINT_DECIMALS
@@ -640,7 +640,7 @@ export const MintPage = (props: HomeProps) => {
                         whitelistTokenBalance > 0
                         ? whitelistPrice + " " + priceLabel
                         : price + " " + priceLabel
-                      : mintPrice 
+                      : mintPrice : matauang
                   }                       
                 />
                 <Info
