@@ -8,7 +8,7 @@
 
 body{
   background-color: var(--main-background-color);
-  background-image: url("img/background.png");
+  backgroundImage: url("img/background.png");
   background-size: cover;
 
   font-family: 'Patrick Hand', cursive;
