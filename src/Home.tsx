@@ -640,7 +640,7 @@ export const MintPage = (props: HomeProps) => {
                         whitelistTokenBalance > 0
                         ? whitelistPrice + " " + priceLabel
                         : price + " " + priceLabel
-                      : mintPrice + matauang
+                      : mintPrice + " " + matauang
                   }                       
                 />
                 <Info
