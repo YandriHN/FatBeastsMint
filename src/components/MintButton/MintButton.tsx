@@ -80,7 +80,7 @@ export const MintButton = ({
                     isMinting || clicked ? (
                         <CircularProgress/>
                     ) : (
-                        "MINT"
+                        "MINT Irbis"
                     )
             ) : isEnded ? "ENDED" : (candyMachine?.state.goLiveDate ? (
                 "SOON"
