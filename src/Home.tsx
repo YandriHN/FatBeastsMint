@@ -628,7 +628,7 @@ export const MintPage = (props: HomeProps) => {
                     fontWeight: "bold",
                   }}
                 >
-                  Fat Beasts
+                  Irbis Expedition Crew
                 </Typography>
 
                 <Info
