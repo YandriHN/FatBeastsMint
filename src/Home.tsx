@@ -632,7 +632,7 @@ export const MintPage = (props: HomeProps) => {
                 </Typography>
 
                 <Info
-                  type="SOL"
+                  type="Price"
                   amount={
                     price
                       ? isActive &&
@@ -641,7 +641,7 @@ export const MintPage = (props: HomeProps) => {
                         ? whitelistPrice + " " + priceLabel
                         : price + " " + priceLabel
                       : mintPrice
-                  }
+                  } type="SOL"
                 />
                 <Info
                   type="Supply"
