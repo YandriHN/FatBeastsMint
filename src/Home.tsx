@@ -641,19 +641,7 @@ export const MintPage = (props: HomeProps) => {
                         ? whitelistPrice + " " + priceLabel
                         : price + " " + priceLabel
                       : mintPrice
-                  }                 
-                  
-                  <Typography
-                  variant="h4"
-                  style={{
-                    color: "#fff",
-                    fontFamily: "Main",
-                    fontWeight: "bold",
-                  }}
-                >
-                  SOL
-                </Typography>
-                  
+                  }    alt="SOL"                              
                 />
                 <Info
                   type="Supply"
