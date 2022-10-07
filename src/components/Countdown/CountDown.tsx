@@ -86,6 +86,6 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 </Typography>
             </Paper>
         </div>
-         ) ;
+         ) 
     );
 };
