@@ -14,7 +14,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
         }}>
         <table style={{ width: "100%" }}>
         <tbody>
-            <tr><th>
+            <tr><td>
             <Paper elevation={0} className="item-container"
                    style={{
                        backgroundColor: theme.palette.primary.light,
@@ -28,7 +28,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
                     color: '#000000', fontFamily: 'Main'
                 }}>days</Typography>
-            </Paper></th><th>
+            </Paper></td><td>
             <Paper elevation={0} className="item-container"
                    style={{
                        backgroundColor: theme.palette.primary.light,
@@ -41,7 +41,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
                     color: '#000000', fontFamily: 'Main'
                 }}>hrs</Typography>
-            </Paper></th><th>
+            </Paper></td><td>
             <Paper elevation={0} className="item-container"
                    style={{
                        backgroundColor: theme.palette.primary.light,
@@ -54,7 +54,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
                     color: '#000000', fontFamily: 'Main'
                 }}> mins </Typography>
-            </Paper></th><th>
+            </Paper></td><td>
             <Paper elevation={0} className="item-container" style={{backgroundColor: theme.palette.primary.light,}}>
                 <Typography variant={window.innerWidth > 530 ? 'h4' : 'h5'}
                             style={{fontFamily: 'Main', color: '#fff', fontWeight: 'bold'}}
@@ -65,7 +65,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper>
-            </th></tr><tr><td>
+            </td></tr><tr><td>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
