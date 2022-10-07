@@ -12,7 +12,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
             marginTop: mobileMarker ? '1rem' : 0,
             marginBottom: mobileMarker ? '1rem' : 0
         }}>
-            <tr></td>
+            <tr><td>
             <Paper elevation={0} className="item-container"
                    style={{
                        backgroundColor: theme.palette.primary.light,
@@ -63,7 +63,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper><br/>
-            </td></td>
+            </td><td>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
