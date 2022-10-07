@@ -62,7 +62,14 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper>
-             </div> {
+             </div> 
+             
+                 );
+};
+             
+export const CountDown = ({days, hours, minutes, seconds}: any) => {
+    const theme = useTheme()
+    const mobileMarker = isMobile()    
     return(
             <div className="countDown-container" style={{
             marginTop: mobileMarker ? '1rem' : 0,
@@ -86,6 +93,5 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 </Typography>
             </Paper>
         </div>
-         ); };
-    );
+         );
 };
