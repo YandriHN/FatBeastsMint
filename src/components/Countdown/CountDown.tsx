@@ -12,6 +12,8 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
             marginTop: mobileMarker ? '1rem' : 0,
             marginBottom: mobileMarker ? '1rem' : 0
         }}>
+        <table style={{ width: "100%" }}>
+        <tbody>
             <tr><td>
             <Paper elevation={0} className="item-container"
                    style={{
@@ -62,8 +64,8 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
-            </Paper><br/>
-            </td><td>
+            </Paper>
+            </td><br/><td>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
@@ -82,7 +84,9 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 </Typography>
             </Paper>
             </td>
-            </tr>
+            </tr>   
+        </tbody>
+       </table>
             </div>
     );
 };
