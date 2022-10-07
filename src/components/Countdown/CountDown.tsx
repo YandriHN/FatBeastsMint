@@ -63,8 +63,8 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 }}> secs</Typography>
             </Paper>
              </div>
-        
-           <div className="countDown-container" style={{
+    return(
+            <div className="countDown-container" style={{
             marginTop: mobileMarker ? '1rem' : 0,
             marginBottom: mobileMarker ? '1rem' : 0 }}>
             <Paper style={{
@@ -81,11 +81,11 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                             fontFamily: 'Main',
                             fontWeight: 'bold',
                             textAlign: 'center',
-
                  }}>
                    Till the Public Mint
                 </Typography>
             </Paper>
         </div>
+         ) ;
     );
 };
