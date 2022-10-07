@@ -65,7 +65,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper>
-            </td></tr><tr><td colSpan="4">
+            </td></tr><tr><td style={{ colSpan: "4" }}>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
