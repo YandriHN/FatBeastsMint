@@ -12,17 +12,6 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
             marginTop: mobileMarker ? '1rem' : 0,
             marginBottom: mobileMarker ? '1rem' : 0
         }}>
-                         <Typography
-              variant={mobileMarker ? "h4" : "h3"}
-              style={{
-                color: "#fff",
-                fontFamily: "Main",
-                fontWeight: "bold",
-              }}
-            >
-              Privat sale is LIVE
-            </Typography>
-            
         <table style={{ width: "100%" }}>
         <tbody>
             <tr><td>
