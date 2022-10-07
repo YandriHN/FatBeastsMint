@@ -14,7 +14,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
         }}>
         <table style={{ width: "100%" }}>
         <tbody>
-            <tr><td style="width:100%">
+            <tr><td style={{ width: "100%" }}>
             <Paper elevation={0} className="item-container"
                    style={{
                        backgroundColor: theme.palette.primary.light,
@@ -65,7 +65,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper>
-            </td></tr><tr><td style="width:100%">
+            </td></tr><tr><td style={{ width: "100%" }}>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
