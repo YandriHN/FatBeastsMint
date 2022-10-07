@@ -64,6 +64,9 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
             </Paper>
              </div>
         
+           <div className="countDown-container" style={{
+            marginTop: mobileMarker ? '1rem' : 0,
+            marginBottom: mobileMarker ? '1rem' : 0 }}>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
@@ -72,12 +75,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     marginTop: mobileMarker ? '0.5rem': 0,
                     marginBottom: mobileMarker ? '0.5rem': 0,
                 }}>
-                        <div style={{ display: 'flex',
-                        flexDirection: 'row',
-                        padding: 10,
-                        justifyContent: 'center',
-                        alignItems: 'center'
-                    }}>
+
                 <Typography display="inline" variant="h6" style={{
                             color: '#fff',
                             fontFamily: 'Main',
