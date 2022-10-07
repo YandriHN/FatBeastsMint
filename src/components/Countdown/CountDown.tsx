@@ -8,6 +8,17 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
     const mobileMarker = isMobile()
 
     return ( 
+                    <Typography
+              variant={mobileMarker ? "h4" : "h3"}
+              style={{
+                color: "#fff",
+                fontFamily: "Main",
+                fontWeight: "bold",
+              }}
+            >
+              Privat sale is LIVE
+            </Typography>
+        
         <div className="countDown-container" style={{
             marginTop: mobileMarker ? '1rem' : 0,
             marginBottom: mobileMarker ? '1rem' : 0
