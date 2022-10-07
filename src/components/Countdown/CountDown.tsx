@@ -7,8 +7,12 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
     const theme = useTheme()
     const mobileMarker = isMobile()
 
-    return ( 
-                    <div style={{ width: "50%" }}><Typography
+    return (         
+        <div className="countDown-container" style={{
+            marginTop: mobileMarker ? '1rem' : 0,
+            marginBottom: mobileMarker ? '1rem' : 0
+        }}>
+                         <Typography
               variant={mobileMarker ? "h4" : "h3"}
               style={{
                 color: "#fff",
@@ -17,12 +21,8 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
               }}
             >
               Privat sale is LIVE
-            </Typography></div>
-        
-        <div className="countDown-container" style={{
-            marginTop: mobileMarker ? '1rem' : 0,
-            marginBottom: mobileMarker ? '1rem' : 0
-        }}>
+            </Typography>
+            
         <table style={{ width: "100%" }}>
         <tbody>
             <tr><td>
