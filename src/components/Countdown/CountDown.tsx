@@ -61,7 +61,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
-            </Paper>
+            </Paper><br/>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
