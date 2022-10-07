@@ -61,7 +61,8 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                 <Typography variant={window.innerWidth > 530 ? 'h5' : 'h6'} style={{
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
-            </Paper>
+        </div>
+                        </Paper>
                          <Paper elevation={0} className="item-container" style={{backgroundColor: theme.palette.primary.light,}}>
                 <Typography variant={window.innerWidth > 530 ? 'h4' : 'h5'}
                             style={{fontFamily: 'Main', color: '#fff', fontWeight: 'bold'}}
@@ -69,6 +70,5 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                    Till the Public Mint
                 </Typography>
             </Paper>
-        </div>
     );
 };
