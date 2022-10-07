@@ -7,11 +7,12 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
     const theme = useTheme()
     const mobileMarker = isMobile()
 
-    return (
+    return ( 
         <div className="countDown-container" style={{
             marginTop: mobileMarker ? '1rem' : 0,
             marginBottom: mobileMarker ? '1rem' : 0
         }}>
+            <tr></td>
             <Paper elevation={0} className="item-container"
                    style={{
                        backgroundColor: theme.palette.primary.light,
@@ -62,6 +63,7 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                     color: '#000000', fontFamily: 'Main'
                 }}> secs</Typography>
             </Paper><br/>
+            </td></td>
             <Paper style={{
                     width: '100%',
                     display: 'flex',
@@ -79,6 +81,8 @@ export const CountDown = ({days, hours, minutes, seconds}: any) => {
                    Till the Public Mint
                 </Typography>
             </Paper>
-            </div> 
+            </td>
+            </tr>
+            </div>
     );
 };
