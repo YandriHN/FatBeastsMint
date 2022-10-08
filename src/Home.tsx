@@ -566,7 +566,7 @@ export const MintPage = (props: HomeProps) => {
                 zIndex: "4",
               }}
             >
-              White List mint is Live <Br /> Price 0.5 SOL
+              White List mint is Live <Br/> Price 0.5 SOL
             </Typography>
         
         {wallet &&
