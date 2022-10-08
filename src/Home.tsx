@@ -556,6 +556,17 @@ export const MintPage = (props: HomeProps) => {
           </Wallet>
         </WalletContainer>
 
+                    <Typography
+              variant={mobileMarker ? "h6" : "h5"}
+              style={{
+                color: "#fff",
+                fontFamily: "Main",
+                fontWeight: "bold",
+              }}
+            >
+              White List mint is Live
+            </Typography>
+        
         {wallet &&
           isActive &&
           whitelistEnabled &&
