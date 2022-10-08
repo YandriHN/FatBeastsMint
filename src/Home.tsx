@@ -562,9 +562,11 @@ export const MintPage = (props: HomeProps) => {
                 color: "#fff",
                 fontFamily: "Main",
                 fontWeight: "bold",
+                padding-top: "25px",
+                z-index: "4",
               }}
             >
-              White List mint is Live
+              White List mint is Live </br> Price 0.5 SOL
             </Typography>
         
         {wallet &&
