@@ -589,7 +589,7 @@ export const MintPage = (props: HomeProps) => {
         <Container maxWidth="md">
           <Paper
             style={{
-              marginTop: mobileMarker ? "2rem" : "3rem",
+              marginTop: mobileMarker ? "0.5rem" : "1rem",
               paddingTop: "1rem",
               paddingLeft: "1rem",
               paddingRight: 0,
