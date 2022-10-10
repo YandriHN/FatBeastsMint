@@ -556,17 +556,29 @@ export const MintPage = (props: HomeProps) => {
           </Wallet>
         </WalletContainer>
 
-                    <Typography
-              variant={mobileMarker ? "h6" : "h5"}
+             <Typography variant={mobileMarker ? "h6" : "h5"}
               style={{
-                color: "#fff",
+                color: "#ff00ff",
                 fontFamily: "Main",
-                fontWeight: "bold",
+                fontWeight: "normal",
                 paddingTop: "25px",
                 zIndex: "4",
               }}
             >
-              <div>White List mint is Live <br /> Price 0.5 SOL</div>
+              <div>Mint is Live</div>
+            </Typography>
+        
+             <Typography
+              variant={mobileMarker ? "h6" : "h5"}
+              style={{
+                color: "#ffffff",
+                fontFamily: "Main",
+                fontWeight: "bold",
+                paddingTop: "5px",
+                zIndex: "4",
+              }}
+            >
+              <div>Public mint Price 0.8 SOL<br />Whitelist mint Price 0.5 SOL</div>
             </Typography>
         
         {wallet &&
