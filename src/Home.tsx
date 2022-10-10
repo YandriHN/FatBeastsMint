@@ -578,7 +578,7 @@ export const MintPage = (props: HomeProps) => {
                 zIndex: "4",
               }}
             >
-              <div>Public mint Price 0.8 SOL<br />Whitelist mint Price 0.5 SOL</div>
+              <div>Public mint Price 0.8 SOL
             </Typography>
         
         {wallet &&
