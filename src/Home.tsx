@@ -560,7 +560,7 @@ export const MintPage = (props: HomeProps) => {
               style={{
                 color: "#ff00ff",
                 fontFamily: "Main",
-                fontWeight: "normal",
+                fontWeight: "bold",
                 paddingTop: "25px",
                 zIndex: "4",
               }}
@@ -578,7 +578,7 @@ export const MintPage = (props: HomeProps) => {
                 zIndex: "4",
               }}
             >
-              <div>Public mint Price 0.8 SOL</div>
+              <div></div>
             </Typography>
         
         {wallet &&
